@@ -1,0 +1,103 @@
+body {
+    padding: 20px 0 0 0;
+    margin: 0;
+    height: 100%;
+    background-color: ivory;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif;
+    color: #181818;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    text-decoration:line-through;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 2.2rem;
+}
+
+@media (max-width: 1000px) {
+    a {
+        font-size: 1rem;
+    }
+    h1, p {
+        font-size: 1.5rem;
+    }
+
+}
+
+.main-container {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-items {
+    display: flex;
+    gap: 5px;
+}
+
+@media (max-width: 1000px) {
+    .contact-items {
+        display: block;
+    }
+}
+
+.contact-items a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote {
+    width: 80%;
+    margin: 15vh auto 0 auto;
+    text-align: right;
+}
+
+#quote {
+    font-size: 1.1rem;
+}
+
+#html {
+    text-decoration: line-through;
+    text-decoration-color: lightcoral;
+}
+
+#css {
+    text-decoration: line-through;
+    text-decoration-color: lightgreen;
+}
+
+#javascript {
+    text-decoration: line-through;
+    text-decoration-color: lightblue;
+}
+
+#nodejs {
+    text-decoration: line-through;
+    text-decoration-color: lightsalmon;
+}
