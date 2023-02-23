@@ -60,6 +60,8 @@ p {
 .contact-items {
     display: flex;
     gap: 5px;
+    width: 80%;
+    margin: auto;
 }
 
 @media (max-width: 1000px) {
@@ -70,16 +72,6 @@ p {
 
 .contact-items a {
     font-family: 'Courier New', Courier, monospace;
-}
-
-.quote {
-    width: 80%;
-    margin: 15vh auto 0 auto;
-    text-align: right;
-}
-
-#quote {
-    font-size: 1.1rem;
 }
 
 #html {
